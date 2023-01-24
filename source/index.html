@@ -1,137 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="css/style.css" />
-        <link
-            rel="preload"
-            href="fonts/Manrope-Regular.woff2"
-            as="font"
-            crossorigin="anonymous"
-        />
-        <link
-            rel="preload"
-            href="fonts/Manrope-Medium.woff2"
-            as="font"
-            crossorigin="anonymous"
-        />
-        <title>Unit Gaming</title>
-    </head>
-    <body class="page">
-        <header class="header">
-            <div class="container">
-                <div class="header__wrapper">
-                    <a class="header__logo" href="">
-                        <img src="./img/logo.png" alt="" />
-                    </a>
-                    <nav class="header__nav">
-                        <ul class="header__nav-list">
-                            <li class="header__nav-item">
-                                <a href="#" class="header__nav-link"
-                                    >Наши продукты</a
-                                >
-                            </li>
-                            <li class="header__nav-item">
-                                <a href="#" class="header__nav-link">Игры</a>
-                            </li>
-                            <li class="header__nav-item">
-                                <a href="#" class="header__nav-link">Донат</a>
-                            </li>
-                            <li class="header__nav-item">
-                                <a href="#" class="header__nav-link">О нас</a>
-                            </li>
-                            <li class="header__nav-item">
-                                <a href="#" class="header__nav-link"
-                                    >Партнёры</a
-                                >
-                            </li>
-                            <li class="header__nav-item">
-                                <a href="#" class="header__nav-link"
-                                    >Сообщество</a
-                                >
-                            </li>
-                            <li class="header__nav-item">
-                                <a href="#" class="header__nav-link"
-                                    >Поддержка</a
-                                >
-                            </li>
-                        </ul>
-                    </nav>
-                    <select name="" id="">
-                        <option value="ru">RU</option>
-                        <option value="en">EN</option>
-                    </select>
-                    <button class="header__reg">Регистрация</button>
-                </div>
-            </div>
-        </header>
-        <main class="main-page">
-            <div class="container">
-                <div class="about">
-                    <div class="about__wrapper">
-                        <div class="about__wrapper-content">
-                            <img
-                                src="./img/logo-about.png"
-                                alt="Логотип Unit Game"
-                            />
-                            <h1 class="about__title">
-                                Первая платформа для геймеров в Туркменистане!
-                            </h1>
-                            <p class="about__subtitle">
-                                Пройди регистрацию, скачай лаунчер и комфортно
-                                играй в лучшие сетевые игры без пинга на PC и
-                                Android!
-                            </p>
-                            <div class="about__nav">
-                                <a href="#" class="about__reg">Регистрация</a>
-                                <div class="about__availible-wrapper">
-                                    <span class="about__availible"
-                                        >Доступно:</span
-                                    >
-                                    <a href="#" class="availible__windows-link"
-                                        ><svg
-                                            width="24"
-                                            height="24"
-                                            viewBox="0 0 24 24"
-                                            fill="none"
-                                            xmlns="http://www.w3.org/2000/svg"
-                                        >
-                                            <g clip-path="url(#clip0_2117_318)">
-                                                <path
-                                                    fill-rule="evenodd"
-                                                    clip-rule="evenodd"
-                                                    d="M24 12.6733L23.997 24L10.9924 22.1702L10.9742 12.6521L24 12.6733ZM10.9924 1.89206L23.997 0V11.3779L10.9924 11.4808V1.89206ZM9.80344 12.5846L9.81113 22.0245L0.007875 20.6809L0.007125 12.5214L9.80344 12.5846ZM0 3.39806L9.80813 2.06644L9.81244 11.4979L0.0091875 11.5534L0 3.39806Z"
-                                                    fill="#00B6F0"
-                                                />
-                                            </g>
-                                            <defs>
-                                                <clipPath id="clip0_2117_318">
-                                                    <rect
-                                                        width="24"
-                                                        height="24"
-                                                        fill="white"
-                                                    />
-                                                </clipPath>
-                                            </defs>
-                                        </svg>
-                                    </a>
-                                    <a
-                                        href="#"
-                                        class="availible__android-link"
-                                    ></a>
-                                </div>
-                            </div>
-                        </div>
-                        <img
-                            class="about__img"
-                            src="./img/spider.jpg"
-                            alt="Человек паук"
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="preload"
+      href="fonts/Manrope-Regular.woff2"
+      as="font"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="fonts/Manrope-Medium.woff2"
+      as="font"
+      crossorigin="anonymous"
+    />
+    <title>Unit Gaming</title>
+  </head>
+  <body class="page">
+    <header class="header">
+      <div class="container">
+        <div class="header__wrapper">
+          <a class="header__logo" href="">
+            <img src="./img/logo.png" alt="" />
+          </a>
+          <nav class="header__nav">
+            <ul class="header__nav-list">
+              <li class="header__nav-item">
+                <a href="#" class="header__nav-link">Наши продукты</a>
+              </li>
+              <li class="header__nav-item">
+                <a href="#" class="header__nav-link">Игры</a>
+              </li>
+              <li class="header__nav-item">
+                <a href="#" class="header__nav-link">Донат</a>
+              </li>
+              <li class="header__nav-item">
+                <a href="#" class="header__nav-link">О нас</a>
+              </li>
+              <li class="header__nav-item">
+                <a href="#" class="header__nav-link">Партнёры</a>
+              </li>
+              <li class="header__nav-item">
+                <a href="#" class="header__nav-link">Сообщество</a>
+              </li>
+              <li class="header__nav-item">
+                <a href="#" class="header__nav-link">Поддержка</a>
+              </li>
+            </ul>
+          </nav>
+          <select name="" id="">
+            <option value="ru">RU</option>
+            <option value="en">EN</option>
+          </select>
+          <button class="header__reg">Регистрация</button>
+        </div>
+      </div>
+    </header>
+    <main class="main-page">
+      <section class="container">
+        <div class="welcome">
+          <div class="welcome__wrapper">
+            <div class="welcome__wrapper-content">
+              <img
+                class="welcome__logo"
+                src="./img/logo-about.png"
+                alt="Логотип Unit Game"
+                width="127"
+                height="74"
+              />
+              <h1 class="welcome__title">
+                Первая платформа для геймеров в Туркменистане!
+              </h1>
+              <p class="welcome__subtitle">
+                Пройди регистрацию, скачай лаунчер и комфортно играй в лучшие
+                сетевые игры без пинга на PC и Android!
+              </p>
+              <div class="welcome__nav">
+                <a href="#" class="welcome__reg button">Регистрация</a>
+                <div class="welcome__availible-wrapper">
+                  <div class="welcome__availible-content"></div>
+                  <span class="welcome__availible">Доступно:</span>
+                  <a href="#" class="welcome__windows-link"
+                    ><svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g clip-path="url(#clip0_2117_318)">
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M24 12.6733L23.997 24L10.9924 22.1702L10.9742 12.6521L24 12.6733ZM10.9924 1.89206L23.997 0V11.3779L10.9924 11.4808V1.89206ZM9.80344 12.5846L9.81113 22.0245L0.007875 20.6809L0.007125 12.5214L9.80344 12.5846ZM0 3.39806L9.80813 2.06644L9.81244 11.4979L0.0091875 11.5534L0 3.39806Z"
+                          fill="#00B6F0"
                         />
-                    </div>
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_2117_318">
+                          <rect width="24" height="24" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </a>
+                  <a href="#" class="welcome__android-link"
+                    ><svg
+                      width="27"
+                      height="31"
+                      viewBox="0 0 27 31"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M2 21.2964C0.899977 21.2964 0 20.3146 0 19.1146V11.4782C0 10.2782 0.899977 9.29639 2 9.29639C3.10002 9.29639 4 10.2782 4 11.4782V19.1146C4 20.3146 3.10002 21.2964 2 21.2964Z"
+                        fill="white"
+                      />
+                      <path
+                        d="M24.2778 21.2964C23.1778 21.2964 22.2778 20.3146 22.2778 19.1146V11.4782C22.2778 10.2782 23.1778 9.29639 24.2778 9.29639C25.3779 9.29639 26.2778 10.2782 26.2778 11.4782V19.1146C26.2778 20.3146 25.3778 21.2964 24.2778 21.2964Z"
+                        fill="white"
+                      />
+                      <path
+                        d="M19.1074 23.9464V29.3723C19.1074 30.2947 18.4021 31.0001 17.4797 31.0001C16.5572 31.0001 15.8519 30.2947 15.8519 29.3723V23.9464H10.4259V29.3723C10.4259 30.2947 9.66632 31.0001 8.79816 31.0001C7.92999 31.0001 7.17038 30.2947 7.17038 29.3723V23.9464H5V9.29639H21.2778V23.9464H19.1074Z"
+                        fill="white"
+                      />
+                      <path
+                        d="M20.9409 7.99951H4.94092C5.15424 5.84953 7.39427 1.99951 12.9942 1.99951C18.3276 1.99951 20.7276 5.84953 20.9409 7.99951Z"
+                        fill="white"
+                      />
+                      <path
+                        d="M11.3409 5.49951C11.3409 4.9495 10.861 4.49951 10.2743 4.49951C9.68759 4.49951 9.2076 4.9495 9.2076 5.49951C9.2076 6.04953 9.68759 6.49951 10.2743 6.49951C10.861 6.49951 11.3409 6.04953 11.3409 5.49951Z"
+                        fill="#1B171F"
+                      />
+                      <path
+                        d="M16.6742 5.49951C16.6742 4.9495 16.1942 4.49951 15.6076 4.49951C15.0209 4.49951 14.5409 4.9495 14.5409 5.49951C14.5409 6.04953 15.0209 6.49951 15.6076 6.49951C16.1942 6.49951 16.6742 6.04953 16.6742 5.49951Z"
+                        fill="#1B171F"
+                      />
+                      <path
+                        d="M8.49308 3.99951C8.28548 3.99951 8.12973 3.86563 8.02596 3.59793L7.03979 0.920842C6.93596 0.586206 7.03979 0.184627 7.29931 0.0508184C7.55883 -0.083067 7.87027 0.0508184 7.97404 0.385455L8.96021 3.06255C9.06404 3.39718 8.96021 3.79876 8.70069 3.93257C8.64883 3.93257 8.59692 3.99951 8.49308 3.99951Z"
+                        fill="white"
+                      />
+                      <path
+                        d="M16.9679 3.29951C16.9159 3.29951 16.8122 3.29951 16.7602 3.24428C16.5007 3.13383 16.3969 2.80259 16.5007 2.52651L17.4869 0.317915C17.5907 0.0418397 17.9021 -0.0686157 18.1616 0.0418397C18.4211 0.152295 18.525 0.483534 18.4211 0.759609L17.435 2.96821C17.3831 3.18906 17.1755 3.29951 16.9679 3.29951Z"
+                        fill="white"
+                      />
+                    </svg>
+                  </a>
                 </div>
+              </div>
             </div>
-        </main>
-    </body>
+            <img
+              class="welcome__img"
+              src="./img/spider.jpg"
+              alt="Человек паук"
+              width="516"
+              height="320"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="about">
+        <div class="container">
+          <div class="about__wrapper">
+            <h2 class="about__title">Вместе развиваем игровую индустрию!</h2>
+            <p class="about__misson">
+              Наша цель – создавать лучшие решения для комфортной игры с
+              друзьями и другими игроками!
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
