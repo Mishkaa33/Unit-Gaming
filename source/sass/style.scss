@@ -1,0 +1,12 @@
+// Начните писать стили здесь
+@import 'variables';
+@import 'global/fonts';
+@import 'global/reboot';
+@import 'global/utils';
+@import 'global/container.scss';
+
+//
+
+@import './blocks/header';
+@import './blocks/page';
+@import './blocks/about';
